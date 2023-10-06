@@ -9,5 +9,6 @@
 | 名稱                                 | 說明                                                                                                       | 安裝                                                                                                           |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | ChatGPT auto hide other conversation | 將 ChatGPT 不是自己的對話隱藏，格式為 [id]-[對話名稱]，例如：vincent55-ChatGPT，若要顯示全部，請按取消即可 | [Install](https://github.com/Vincent550102/userscripts/raw/main/ChatGPT-auto-hidden-othe-conversation.user.js) |
+| Gmail toggletext hotkey              | 讓你在 Gmail 能使用快捷鍵來將文字背景或文字顏色改變                                                        | [Install](https://github.com/Vincent550102/userscripts/raw/main/Gmail-toggletext-hotkey.js)                    |
 
 Reference from https://github.com/gnehs/userscripts
