@@ -23,8 +23,10 @@
         let range = selection.getRangeAt(0);
         let parentNode = range.commonAncestorContainer.parentNode;
 
+        console.log(e.ctrlKey, e.altKey, e.code, e.altKey)
+
         // Check for text color shortcut: Alt+W
-        if (e.altKey && e.code === 'KeyW') {
+        if (e.ctrlKey && e.shiftKey && e.altKey && e.code === 'KeyR') {
 
             if (parentNode.tagName.toUpperCase() === 'SPAN' && parentNode.style.color === 'red') {
                 unwrapNode(parentNode, selection);
@@ -35,7 +37,7 @@
         }
 
         // Check for background color shortcut: Alt+B
-        if (e.altKey && e.code === 'KeyB') {
+        if (e.ctrlKey && e.altKey && e.code === 'KeyH') {
             if (parentNode.tagName.toUpperCase() === 'SPAN' && parentNode.style.backgroundColor === 'yellow') {  // using yellow for demonstration
                 unwrapNode(parentNode, selection);
             } else {
