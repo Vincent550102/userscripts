@@ -49,7 +49,7 @@
         });
 
         button.appendChild(icon);
-        button.appendChild(document.createTextNode('Go to DeepWiki'));
+        button.appendChild(document.createTextNode('DeepWiki'));
         button.addEventListener('click', function() {
             window.location.href = `https://deepwiki.com/${owner}/${repo}`;
         });
